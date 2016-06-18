@@ -1,4 +1,4 @@
-(defproject clojure-web "0.1.0-SNAPSHOT"
+(defproject clojure-web "0.1.0"
   :description "A database-backed Clojure web application"
   :url "https://github.com/klose911/clojure-web"
   :license {:name "Apache License"
