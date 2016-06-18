@@ -1,8 +1,8 @@
 (defproject clojure-web "0.1.0-SNAPSHOT"
-  :description "sample of database-backed Clojure web application"
+  :description "A database-backed Clojure web application"
   :url "https://github.com/klose911/clojure-web"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :license {:name "Apache License"
+            :url "http://www.apache.org/licenses/LICENSE-2.0.html"}
   :repositories {"sonatype-oss-public" "https://oss.sonatype.org/content/groups/public/"}
   :dependencies [
                  [org.clojure/clojure "1.6.0"]
@@ -15,9 +15,9 @@
                  [ring/ring-json "0.3.1"]
                  [compojure "1.2.1"]]
   :main clojure-web.core)
-  ;; :aot [clojure-web.web]
-  ;; :plugins [[lein-ring "0.8.13"]]
-  ;; :ring {:handler clojure-web.web/app
-  ;;        :auto-reload? true
-  ;;        :auto-refresh? true
-  ;;        }
+;; :aot [clojure-web.web]
+;; :plugins [[lein-ring "0.8.13"]]
+;; :ring {:handler clojure-web.web/app
+;;        :auto-reload? true
+;;        :auto-refresh? true
+;;        }
