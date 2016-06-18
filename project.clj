@@ -14,10 +14,10 @@
                  [ring "1.3.1"]
                  [ring/ring-json "0.3.1"]
                  [compojure "1.2.1"]]
-  :main clojure-web.core)
-;; :aot [clojure-web.web]
-;; :plugins [[lein-ring "0.8.13"]]
-;; :ring {:handler clojure-web.web/app
-;;        :auto-reload? true
-;;        :auto-refresh? true
-;;        }
+  :main clojure-web.web
+  :aot [clojure-web.web]
+  :plugins [[lein-ring "0.8.13"]]
+  :ring {:handler clojure-web.web/app
+         :auto-reload? true
+         :auto-refresh? true
+         })

@@ -1,3 +1,3 @@
-# Introduction to first-clojure-web
+# Introduction to clojure-web
 
 TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)
