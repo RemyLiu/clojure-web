@@ -3,7 +3,7 @@
         korma.core))
 
 (defdb korma-db (mysql {:db "test",
-                        :host "localhost",
+                        :host "192.168.2.160",
                         :port 3306,
                         :user "root",
                         :password "mysql"}))
