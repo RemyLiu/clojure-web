@@ -2,11 +2,11 @@
 
 A database-backed Clojure web application
 
-##Install 
+##Install Dependencies  
 
 lein deps 
 
-## Usage
+## Run
 
 lein ring server
 
